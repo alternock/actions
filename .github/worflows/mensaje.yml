@@ -1,0 +1,14 @@
+name: Ejemplo de flujo de trabajo
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Imprime un mensaje
+      run: echo "Hola, mundo!"
