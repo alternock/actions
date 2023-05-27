@@ -1,5 +1,5 @@
 
 config = {
-  "server":"localhost",
+  "server":"vercel",
   "cloud":"vercel"
 }
