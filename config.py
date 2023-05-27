@@ -1,1 +1,4 @@
 
+config = {
+  "server":"localhost"
+}
