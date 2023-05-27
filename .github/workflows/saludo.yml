@@ -1,14 +1,20 @@
-name: Ejemplo de flujo de trabajo
+name: Mostrar mensaje en push
 
 on:
   push:
     branches:
+      - develop
       - main
 
 jobs:
-  build:
+  mostrar-mensaje-develop:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Imprime un mensaje
-      run: echo "Hola, mundo!"
+      - name: Mostrar mensaje en develop
+        run: echo "Se ha hecho un push en la rama develop"
+
+  mostrar-mensaje-main:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar mensaje en main
+        run: echo "Se ha hecho un push en la rama main"
