@@ -1,5 +1,6 @@
 
 config = {
   "server":"vercel",
-  "cloud":"vercel"
+  "cloud":"vercel",
+  "user":"admin"
 }
