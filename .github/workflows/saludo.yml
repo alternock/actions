@@ -3,12 +3,13 @@ name: Mostrar mensaje en push
 on:
   push:
     branches:
-      - develop
       - main
+      - develop
+
 
 jobs:
   mostrar-push-mensaje:
     runs-on: ubuntu-latest
     steps:
-      - name: Mostrar mensaje en develop
-        run: echo "Se ha realizado hecho un push 🚀"
+      - name: Alerta PUSH [main, develop]
+        run: echo "Se ha realizado un push 🚀"
