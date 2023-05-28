@@ -1,5 +1,6 @@
 """
-text: "fooziman" output => "FOOZIMAN"
+function return upper
+text: "fooziman" output => "FOOZIMAN" 
 """
 
 def fn_hack_1():
