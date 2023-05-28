@@ -7,7 +7,7 @@ on:
       - main
 
 jobs:
-  mostrar-mensaje-develop:
+  mostrar-push-mensaje:
     runs-on: ubuntu-latest
     steps:
       - name: Mostrar mensaje en develop
